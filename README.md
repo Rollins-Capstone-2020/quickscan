@@ -2,9 +2,7 @@
 ________________________________________
 
 
-
-
-##Software Engineering 
+#Software Engineering 
 ##Software Requirements Specification
 ##(SRS) Document
 
@@ -16,9 +14,7 @@ ________________________________________
 
 ####Rollins College
 
-
-
-________________________________________
+______________________________________
  
 Revisions
 
