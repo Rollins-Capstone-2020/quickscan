@@ -2,36 +2,38 @@
 ________________________________________
 
 
-#Software Engineering 
-##Software Requirements Specification
-##(SRS) Document
+## Software Engineering 
+### Software Requirements Specification
+### (SRS) Document
 
-###QuickScan
+### QuickScan
 
-###1/30/2020
+### 1/30/2020
 
-####Version 0.1
+#### Version 0.1
 
-####Rollins College
+#### Rollins College
 
 ______________________________________
  
-Revisions
+# Revisions
 
 
 |Version	|Primary Author(s)	|Description of Version	|Date Completed|
 |---------|-------------------|-----------------------|--------------|
-|0.1      |	Raul Gomez, Sandro Giannini, Lauren Hancock, May Phan| Initial | |N/A
+|0.1      |	Raul Gomez, Sandro Giannini, Lauren Hancock, May Phan| Initial |N/A|
 
 
-Review & Approval
-Requirements Document Approval History
-Approving Party	Version Approved	Signature	Date
+# Review & Approval
+## Requirements Document Approval History
+Approving Party|Version Approved |Signature|Date|
+|--------------|-----------------|--------------|
 			
 	
 
-Requirements Document Review History
-Reviewer	Version Reviewed	Signature	Date
+## Requirements Document Review History
+Reviewer |	Version Reviewed|	Signature|	Date|
+---------|----------------------|----------------|----------|
 			
 			
 	 
