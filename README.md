@@ -26,14 +26,16 @@ ______________________________________
 
 # Review & Approval
 ## Requirements Document Approval History
-|Approving Party|Version Approved |Signature|Date|
-|---------------|-----------------|--------------|
+|Approving Party |Version Approved |Signature     |Date |
+|--------------- |-----------------|--------------|-----|
+|		 |		   |              |     |	
 			
 	
 
 ## Requirements Document Review History
 |Reviewer |	Version Reviewed |	Signature |	Date |
 |---------|----------------------|----------------|----------|
+|	  |		         |                |          |
 			
 			
 	 
