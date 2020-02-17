@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"quickscand4fc2edc": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

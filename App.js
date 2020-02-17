@@ -1,57 +1,30 @@
 import React from 'react';
-import { Image, StyleSheet, Text, View, TouchableOpacity, StatusBar } from 'react-native';
-import logo from './assets/logo2.png';
+import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      
-      <StatusBar  
-        backgroundColor="#D00000"
-        barStyle="light-content"/>
+import { withAuthenticator } from 'aws-amplify-react-native'
 
-      <Image source={logo} style={styles.logo} />  
-      <Text style ={styles.instructions}>
-        Welcome! </Text>
-      <Text style ={styles.instructions}>
-        Login to begin</Text>
+import Amplify from '@aws-amplify/core'
+import config from './aws-exports'
+Amplify.configure(config)
 
-     <TouchableOpacity
-     onPress={() => alert('Hi there!')}
-      style ={styles.button}><Text style ={styles.buttonText}>Log in</Text>
-       </TouchableOpacity>   
-    </View>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>Open up App.js to start working on your app!</Text>
+        <Text>Yo!</Text>
+      </View>
+    );
+  }
 }
 
-//STYLE
+export default withAuthenticator(App, { includeGreetings: true })
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#bdc667',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 10,
   },
-logo: {
-  width: 305,
-  height: 159,
-  marginBottom: 10,
-},
-instructions: {
-  color: '#888',
-  fontSize: 18,
-  marginHorizontal: 15,
-  marginBottom: 10,
-},
-buttonText: {
-  fontSize: 20,
-  color: '#fff',
-},
-
-button: {
-  backgroundColor: '#383961',
-  padding: 20,
-  borderRadius: 5,
-},
 });
